@@ -39,7 +39,7 @@ public class gameController : MonoBehaviour
             listEnemy.Add(enemy);
         }
         InvokeRepeating("invokeEnemyFly", 0f, 20f);
-        InvokeRepeating("spawnBullet",5f,0.1f);
+        InvokeRepeating("spawnBullet",20f,0.1f);
     }
     void flyToFullRect()
     {
